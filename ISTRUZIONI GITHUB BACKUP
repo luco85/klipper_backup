@@ -1,0 +1,12 @@
+ISTRUZIONI
+
+i file cfg devono essere creati dentro una cartella klipper_config
+DA Terminal eaccedere a raspberry
+cd ~/klipper_config
+git init
+git add .
+git config --global user.name "luco85"
+git config --global user.email "vectorluca@gmail.com"
+git remote add origin https://luco85:[PERSONAL TOKEN GITHUB]@github.com/luco85/klipper_backup.git
+git commit -m "initial backup"
+git push -u origin master
